@@ -1,0 +1,126 @@
+body {
+    margin: 12px;
+}
+
+p,
+button {
+    padding: 12px;
+}
+
+.first-button {
+    border: solid 0px yellowgreen;
+    border-bottom-width: 8px;
+    border-top-width: 4px;
+    border-color: rgb(129, 192, 53);
+    background-color: rgb(254, 254, 254);
+    height: 48px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.second-button {
+    border-width: 6px;
+    border-color: rgb(203, 208, 56);
+    border-style: solid;
+    background-color: rgb(254, 254, 254);
+    height: 48px;
+    width: 100px;
+    align-items: center;
+    padding: 0;
+}
+
+.third-button {
+    box-sizing: content-box;
+    border-width: 12px;
+    background-color: rgb(254, 254, 254);
+    width: 100px;
+}
+
+.fourth-button {
+    box-sizing: border-box;
+    border-width: 12px;
+    background-color: rgb(254, 254, 254);
+    width: 100px;
+}
+
+.height1 {
+    background-color: rgb(173, 249, 126);
+    height: auto;
+    font-size: 12px;
+}
+
+.height2 {
+    background-color: rgb(173, 249, 126);
+    height: 80px;
+    font-size: 12px;
+}
+
+.line-height1 {
+    line-height: 1.6;
+    background-color: rgb(228, 249, 126);
+    font-size: 12px;
+}
+
+.line-height2 {
+    background-color: rgb(228, 249, 126);
+    font-size: 12px;
+    line-height: 0.8em;
+}
+
+.max-height {
+    background-color: rgb(126, 249, 216);
+    font-size: 12px;
+    max-height: none;
+}
+
+.max-height1 {
+    background-color: rgb(126, 249, 216);
+    font-size: 12px;
+    max-height: 2000px;
+}
+
+.max-height2 {
+    background-color: rgb(126, 249, 216);
+    font-size: 12px;
+    max-height: 20px;
+    padding: 12px 12px 0;
+}
+
+.max-width1 {
+    background-color: rgb(126, 249, 216);
+    font-size: 12px;
+    max-width: 2000px;
+}
+
+.max-width2 {
+    background-color: rgb(126, 249, 216);
+    font-size: 12px;
+    max-width: 20px;
+}
+
+.min-height1 {
+    background-color: rgb(222, 126, 249);
+    font-size: 12px;
+    min-height: 100px;
+}
+
+.min-height2 {
+    background-color: rgb(222, 126, 249);
+    font-size: 12px;
+    max-height: 5px;
+}
+
+.min-width1 {
+    min-width: 300px;
+    width: 28px;
+    background-color: rgb(222, 126, 249);
+    font-size: 12px;
+}
+
+.min-width2 {
+    min-width: 5px;
+    width: 28px;
+    background-color: rgb(222, 126, 249);
+    font-size: 12px;
+}
